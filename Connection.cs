@@ -9,11 +9,11 @@ namespace Screensaver.Computer
     {
         private static string serverip
         {
-            get { return Form1.serverip?.ToString() ?? "developer.venov.com.tr"; }
+            get { return Form1.serverip?.ToString() ?? "****.com.tr"; }
         }
 
-        private static string username="mobile";
-        private static string password="1234";
+        private static string username="***";
+        private static string password="***";
         private static string connectionString = "SERVER=" + serverip + ";" + "DATABASE='screensaver';" + "UID=" + username +
                                           ";" + "PASSWORD=" + password + ";";
         private MySqlConnection connection = new MySqlConnection(connectionString);
