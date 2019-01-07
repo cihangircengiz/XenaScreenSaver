@@ -288,9 +288,9 @@ namespace Screensaver
                     var bag = new MySqlConnectionStringBuilder();
                     bag.Server = serverip;
                     bag.Port = 3306;
-                    bag.UserID = "mobile";
-                    bag.Password = "1234";
-                    bag.Database = "screensaver";
+                    bag.UserID = "****";
+                    bag.Password = "****";
+                    bag.Database = "********";
                     baglantim = new MySqlConnection(bag.ToString());
                 }
                 if (baglantim.State.ToString() != "Open")
